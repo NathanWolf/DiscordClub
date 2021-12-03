@@ -73,7 +73,9 @@ public class DiscordChatListener extends ListenerAdapter {
         respondToMessage(message, mention);
     }
 
-    protected void respondToMessage(Message message, List<Member> mentions) {
-        // TODO
+    protected void respondToMessage(Message originalMessage, List<Member> mentions) {
+        String message = "I'm alive!";
+        MessageAction action = originalMessage.reply(message);
+        action.queue(sentMessage -> sentMessage.suppressEmbeds(true).queue(), throwable -> controller.getLogger().log(Level.SEVERE, "Failed to send message in channel " + originalMessage.getChannel(), throwable));
     }
 }
