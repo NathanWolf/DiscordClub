@@ -1,0 +1,19 @@
+# Put your bot token here
+token:
+
+# The bot will only work with one channel
+channel:
+
+# The bot will completely ignore these channels, even for reactions
+ignore_channel:
+
+# For allowing message processing in other channels with a reaction
+reaction_channel: "*"
+reaction_emote: miha:887420186632802345
+
+# Will react to any messages that mention this user, in all channels or a specific channel
+mention_channel: "*"
+mention_id:
+
+# Turn on relevance displays and other debug info
+debug: false

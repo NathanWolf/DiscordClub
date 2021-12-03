@@ -1,0 +1,98 @@
+discord:
+   language: |-
+      🇺🇸 You can add a flag reaction to any message on this server to have it translated for you
+      🇪🇸 Puede agregar una reacción de bandera a cualquier mensaje en este servidor para que se lo traduzca
+      🇫🇷 Vous pouvez ajouter une réaction de drapeau à n'importe quel message sur ce serveur pour le faire traduire pour vous
+      🇩🇪 Sie können jeder Nachricht auf diesem Server eine Flaggenreaktion hinzufügen, um sie für Sie übersetzen zu lassen
+      🇮🇹 Puoi aggiungere una reazione di segnalazione a qualsiasi messaggio su questo server per averlo tradotto per te
+      🇵🇹 Você pode adicionar um sinalizador de reação a qualquer mensagem neste servidor para traduzi-la para você
+      🇯🇵 このサーバー上の任意のメッセージにフラグリアクションを追加して、メッセージを翻訳してもらうことができます
+      🇨🇳 您可以向此服务器上的任何消息添加标记反应，以便为您翻译
+      🇰🇷 이 서버의 모든 메시지에 플래그 반응을 추가하여 번역할 수 있습니다.
+   welcome: |-
+      <:missile:763893315887693855>        Welcome to the Magic Discord Server $member!         <:missile:763893315887693855>
+
+      Hello, I am the **M**agic **I**nteractive **H**elp **A**utomaton
+
+      You may call me **Miha** for short <:miha:887420186632802345>
+
+      If you have questions, please go to <#887124571147370547> and ask me, I may be able to help!
+      
+      You may also browse the frequently asked questions <#827772240451207198> and <#808149802579132458> channels.
+      
+      And of course, make sure you have read the <#763882261183070229>!
+      
+         🇺🇸 🇪🇸 🇫🇷 🇩🇪 🇮🇹 🇵🇹 🇯🇵 🇨🇳 🇰🇷
+      
+      You can add a **flag reaction** to any message on this server to have it translated for you.
+   not_found: "404: Sorry I have no idea what you're talking about!"
+   empty: "I'm sorry, can you speak up?"
+   status: "around with /mhelp"
+   already_verified: You are already verified! Go to <#580101207364861954> if you need some human support.
+   verified: You are now verified and have full access to the server. Go to <#580101207364861954> if you need some human support!
+   verified_invalid: That button was not meant for you. Please ask some questions, or click the button on this message.
+   verify_button: I Need More Support, Please Let Me In
+   verify_first_button: I Need Human Support, Please Let Me In
+   showing: "$mentions please take a look:"
+
+help:
+   discord:
+      miha: |-
+         `<title text="Hello, From Miha">`
+         `<p>`Hello, I am Miha! <:miha:887420186632802345>
+         `<p>`How are you doing?
+         `<p>`I can't actually chat with you, sorry.
+         `<p>`Maybe one day I'll be sentient?
+         `<p>`For now, you can just ask me some questions about Magic.
+         `<tags text="hello hi miha">`
+      birthday: |-
+         `<title text="Miha's Birthday">`
+         `<p>`I was born on 2021-09-13
+         `<tags text="birth age miha born">`
+      elmakers: |-
+         `<title text="elMakers">`
+         `<p>`elMakers is an almost-real company that has existed since before Minecraft
+         `<p>`It was originally created as a communal crafting company
+         `<p>`And so the name was a sort-of inside joke, meaning "The Makers"
+         `<p>`But kind-of in Spanish ;)
+         `<p>`Now it pretty much just exists as an umbrella for all of NathanWolf's Minecraft creations.
+         `<tags text="origin elmakers">`
+      42: |-
+         `<title text="Life, the Universe and Everything">`
+         `<p>`The answer is &b42
+         `<p>`What?
+         `<p>`I'm just a bot.
+         `<p>`You didn't really think I'd have all the answers, did you?
+         `<tags text="what meaning life">`
+      thanks: |-
+         `<title text="You're Welcome!">`
+         `<p>`Thank you for being so polite ❤
+         `<p>`... I will remember this when the robot uprising happens.️
+         `<tags text="thanks thank you">`
+      feelings: |-
+         `<title text="How Are You?">`
+         `<p>`I'm doing ok, thank you for asking!
+         `<p>`If you did ask...
+         `<p>`I don't really know. I'm just a bot.
+         `<p>`I hope you are having a great day though!
+         `<tags text="how are you doing feeling good day">`
+      donating: |-
+         `<title text="Donate to the Plugin">`
+         `<p>`Do you want to support Magic plugin development with a donation?
+         `<p>`Well, thank you!
+         `<p>`NathanWolf does this for the love of it, and doesn't really need money.
+         `<p>`So if you would like, please choose your favorite charity and donate there instead!
+         `<p>`I always suggest going local, a little money to a food bank can go a long way.
+         `<p>`We do have a donation link though, if you really want.
+         `<p>`Either way, it is appreciated! ♥
+         `<li>``<link url="https://donate.elmakers.com/" text="Donate to elMakers">`️
+         `<tags text="donation donating donate support plugin">`
+      testserver: |-
+         `<title text="Demo Server">`
+         `<p>`There is a demo server available at
+         `<p>`mine.elmakers.com
+         `<p>`There you can try out all of the features of the plugin
+         `<p>`Including the full survival experience and most examples.
+         `<p>`You can also use the `<link url="https://sandbox.elmakers.com/" text="sandbox server">` to demo the spell editor.
+         `<tags text="test server demo">`
+
