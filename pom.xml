@@ -32,6 +32,21 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>com.elmakers.codeanticode</groupId>
+            <artifactId>Eliza</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.processing/core -->
+        <dependency>
+            <groupId>org.processing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.6</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
     <repositories>

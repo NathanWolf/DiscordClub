@@ -15,11 +15,17 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.requests.restaction.MessageAction;
 
+import codeanticode.eliza.Eliza;
+
 public class DiscordChatListener extends ListenerAdapter {
     private final DiscordBrawlPlugin controller;
+    private final ElizaApplet applet;
+    private final Eliza eliza;
 
     public DiscordChatListener(DiscordBrawlPlugin controller) {
         this.controller = controller;
+        this.applet = new ElizaApplet();
+        eliza = new Eliza(applet);
     }
 
     @Override
@@ -74,7 +80,7 @@ public class DiscordChatListener extends ListenerAdapter {
     }
 
     protected void respondToMessage(Message originalMessage, List<Member> mentions) {
-        String message = "I'm alive!";
+        String message = eliza.processInput(originalMessage.getContentStripped());
         MessageAction action = originalMessage.reply(message);
         action.queue(sentMessage -> sentMessage.suppressEmbeds(true).queue(), throwable -> controller.getLogger().log(Level.SEVERE, "Failed to send message in channel " + originalMessage.getChannel(), throwable));
     }
