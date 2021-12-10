@@ -5,3 +5,13 @@ api-version: 1.17
 author: NathanWolf
 description: A discord bot as a bukkit plugin for some reason
 
+commands:
+  eliza:
+    description: Get some therapy
+    permission: eliza
+
+permissions:
+  eliza:
+    description: Can use the /eliza command
+    type: boolean
+    default: op
