@@ -11,9 +11,9 @@ public class JDAConnector implements Runnable {
     private final EnumSet<GatewayIntent> intents = EnumSet.of(
         GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MESSAGE_REACTIONS, GatewayIntent.GUILD_MEMBERS
     );
-    private final DiscordBrawlPlugin controller;
+    private final BrawlController controller;
 
-    public JDAConnector(DiscordBrawlPlugin controller) {
+    public JDAConnector(BrawlController controller) {
         this.controller = controller;
     }
 
