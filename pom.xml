@@ -94,6 +94,14 @@
                 </executions>
                 <configuration>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
+                    <filters>
+                        <filter>
+                            <artifact>com.elmakers.codeanticode:*</artifact>
+                            <excludes>
+                                <exclude>resources/*</exclude>
+                            </excludes>
+                        </filter>
+                    </filters>
                 </configuration>
             </plugin>
 
