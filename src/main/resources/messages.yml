@@ -1,13 +1,22 @@
 discord:
-   welcome: Hi!
+   welcome: |-
+      <:minecraft:943262187030474832>      Welcome to the Oly Minecract Club Discord Server!         <:marigold:943261671097520188>
+
+      Hello, $member!
+
+      Please change your nickname to the name we would know you by. You can introduce yourself here as well if you like!
+
+      You will not be able to interact with the rest of the server until someone verifies that we know who you are, and we let you in.
+
+      Please make sure you have read and agree to all of the the <#933055989069021335>!
    not_found: "404: Sorry I have no idea what you're talking about!"
    empty: "I'm sorry, can you speak up?"
    status: "Minecraft"
    already_verified: You are already verified! Go to <#580101207364861954> if you need some human support.
-   verified: You are now verified and have full access to the server. Go to <#580101207364861954> if you need some human support!
-   verified_invalid: That button was not meant for you. Please ask some questions, or click the button on this message.
-   verify_button: I Need More Support, Please Let Me In
-   verify_first_button: I Need Human Support, Please Let Me In
+   verified: Thank you for agreeing! Please wait for someone to let you in, this may take some time.
+   verified_invalid: That button was not meant for you (but thanks for agreeing anyway!)
+   verify_button: I Agree!
+   verify_first_button: I Agree!
    showing: "$mentions please take a look:"
 
 help:
