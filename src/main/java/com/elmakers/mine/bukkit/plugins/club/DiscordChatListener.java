@@ -1,4 +1,4 @@
-package com.elmakers.mine.bukkit.plugins.brawl;
+package com.elmakers.mine.bukkit.plugins.club;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,9 +16,9 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.requests.restaction.MessageAction;
 
 public class DiscordChatListener extends ListenerAdapter {
-    private final BrawlController controller;
+    private final ClubController controller;
 
-    public DiscordChatListener(BrawlController controller) {
+    public DiscordChatListener(ClubController controller) {
         this.controller = controller;
     }
 

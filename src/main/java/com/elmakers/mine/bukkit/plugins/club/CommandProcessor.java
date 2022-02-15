@@ -1,4 +1,4 @@
-package com.elmakers.mine.bukkit.plugins.brawl;
+package com.elmakers.mine.bukkit.plugins.club;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,9 @@ import org.jetbrains.annotations.Nullable;
 
 public class CommandProcessor implements TabExecutor {
     private final Plugin plugin;
-    private final BrawlController controller;
+    private final ClubController controller;
 
-    public CommandProcessor(Plugin plugin, BrawlController controller) {
+    public CommandProcessor(Plugin plugin, ClubController controller) {
         this.plugin = plugin;
         this.controller = controller;
     }

@@ -1,5 +1,5 @@
-name: DiscordBrawl
-main: com.elmakers.mine.bukkit.plugins.brawl.DiscordBrawlPlugin
+name: DiscordClub
+main: com.elmakers.mine.bukkit.plugins.brawl.DiscordClubPlugin
 version: 1.0
 api-version: 1.17
 author: NathanWolf

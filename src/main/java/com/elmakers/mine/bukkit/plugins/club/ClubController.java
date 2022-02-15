@@ -1,4 +1,4 @@
-package com.elmakers.mine.bukkit.plugins.brawl;
+package com.elmakers.mine.bukkit.plugins.club;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -18,7 +18,7 @@ import net.dv8tion.jda.api.entities.Activity;
 import codeanticode.eliza.Eliza;
 import codeanticode.eliza.FileLoader;
 
-public class BrawlController implements FileLoader {
+public class ClubController implements FileLoader {
     private final Plugin plugin;
     private final YamlConfiguration messages;
     private final Eliza eliza;
@@ -37,7 +37,7 @@ public class BrawlController implements FileLoader {
     private boolean debug;
     private JDA jda = null;
 
-    public BrawlController(Plugin plugin) {
+    public ClubController(Plugin plugin) {
         this.plugin = plugin;
         eliza = new Eliza(this);
 

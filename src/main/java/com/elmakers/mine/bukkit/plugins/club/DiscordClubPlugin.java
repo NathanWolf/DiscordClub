@@ -1,13 +1,13 @@
-package com.elmakers.mine.bukkit.plugins.brawl;
+package com.elmakers.mine.bukkit.plugins.club;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class DiscordBrawlPlugin extends JavaPlugin {
-    private BrawlController controller;
+public class DiscordClubPlugin extends JavaPlugin {
+    private ClubController controller;
 
     public void onEnable() {
         saveDefaultConfig();
-        controller = new BrawlController(this);
+        controller = new ClubController(this);
 
         // Register commands
         CommandProcessor processor = new CommandProcessor(this, controller);
@@ -19,7 +19,7 @@ public class DiscordBrawlPlugin extends JavaPlugin {
         controller.shutdown();
     }
 
-    public BrawlController getController() {
+    public ClubController getController() {
         return controller;
     }
 }

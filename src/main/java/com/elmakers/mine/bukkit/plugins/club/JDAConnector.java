@@ -1,4 +1,4 @@
-package com.elmakers.mine.bukkit.plugins.brawl;
+package com.elmakers.mine.bukkit.plugins.club;
 
 import java.util.EnumSet;
 import java.util.logging.Level;
@@ -11,9 +11,9 @@ public class JDAConnector implements Runnable {
     private final EnumSet<GatewayIntent> intents = EnumSet.of(
         GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MESSAGE_REACTIONS, GatewayIntent.GUILD_MEMBERS
     );
-    private final BrawlController controller;
+    private final ClubController controller;
 
-    public JDAConnector(BrawlController controller) {
+    public JDAConnector(ClubController controller) {
         this.controller = controller;
     }
 
