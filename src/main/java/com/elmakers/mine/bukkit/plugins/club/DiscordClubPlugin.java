@@ -1,5 +1,6 @@
 package com.elmakers.mine.bukkit.plugins.club;
 
+import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class DiscordClubPlugin extends JavaPlugin {
@@ -11,8 +12,15 @@ public class DiscordClubPlugin extends JavaPlugin {
 
         // Register commands
         CommandProcessor processor = new CommandProcessor(this, controller);
-        getCommand("eliza").setTabCompleter(processor);
-        getCommand("eliza").setExecutor(processor);
+        setupCommand("eliza", processor);
+    }
+
+    protected void setupCommand(String commandName, CommandProcessor processor) {
+        PluginCommand command = getCommand(commandName);
+        if (command != null) {
+            command.setTabCompleter(processor);
+            command.setExecutor(processor);
+        }
     }
 
     public void onDisable() {
