@@ -33,9 +33,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.elmakers.codeanticode</groupId>
-            <artifactId>Eliza</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.theokanning.openai-gpt3-java</groupId>
+            <artifactId>client</artifactId>
+            <version>0.6.0</version>
             <scope>compile</scope>
         </dependency>
 

@@ -21,3 +21,6 @@ mention_id:
 
 # Turn on relevance displays and other debug info
 debug: false
+
+# Open AI API key
+api_key: ""
